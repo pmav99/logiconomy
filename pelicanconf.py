@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'asdf'
+AUTHOR = 'Θανάσης Αργυρίου'
 SITENAME = 'Logiconomy'
 SITEURL = ''
 
