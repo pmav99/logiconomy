@@ -9,6 +9,7 @@ SITEURL = ''
 PATH = 'content'
 
 TIMEZONE = 'Europe/Athens'
+LOCALE = ['el_GR',]
 
 DEFAULT_LANG = 'el'
 
