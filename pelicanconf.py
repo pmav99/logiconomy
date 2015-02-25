@@ -26,8 +26,11 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('Twitter', 'http://twitter.com/logiconomy'),
+    ('Facebook', 'http://www.facebook.com/logiconomy'),
+    ('Google+', 'http://plus.google.com/logiconomy'),
+)
 
 DEFAULT_PAGINATION = 6
 
