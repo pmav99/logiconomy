@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'asdf'
-SITENAME = 'logiconomy.gr'
+SITENAME = 'Logiconomy'
 SITEURL = ''
 
 PATH = 'content'
