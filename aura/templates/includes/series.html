@@ -1,0 +1,26 @@
+{% if article.series %}
+<div class="well">
+    <p>Αυτό είναι το {{ article.series.index }}o άρθρο της σειράς για το «{{ article.series.name }}».</p>
+    {% if article.series.previous -%}
+      <p>Προηγούμενα άρθρα:</p>
+      <ol class="parts">
+      {% for series_article in article.series.all_previous %}
+        <li>
+          <a href='{{ SITEURL }}/{{ series_article.url }}'>{{ series_article.title }}</a>
+        </li>
+      {% endfor %}
+      </ol>
+    {%- endif %}
+
+    {% if article.series.next -%}
+      <p>Επόμενα άρθρα:</p>
+      <ol start={{ article.series.index + 1 }} class="parts">
+      {% for series_article in article.series.all_next %}
+        <li>
+          <a href='{{ SITEURL }}/{{ series_article.url }}'>{{ series_article.title }}</a>
+        </li>
+      {% endfor %}
+      </ol>
+    {%- endif %}
+</div>
+{% endif %}
