@@ -1,26 +1,36 @@
-{% if article.series %}
+<!-- start of article series -->
+{% if article.series and article.series.all|length > 1 -%}
 <div class="well">
-    <p>Αυτό είναι το {{ article.series.index }}o άρθρο της σειράς για το «{{ article.series.name }}».</p>
-    {% if article.series.previous -%}
+  <p>Διαβάζετε το {{ article.series.index }}ο άρθρο της σειράς «{{ article.series.name }}».</p>
+  {% if article.series.previous -%}
+    {% if article.series.all_previous|length < 2 -%}
+      <p>Προηγούμενο άρθρο:</p>
+    {% else %}
       <p>Προηγούμενα άρθρα:</p>
-      <ol class="parts">
-      {% for series_article in article.series.all_previous %}
-        <li>
-          <a href='{{ SITEURL }}/{{ series_article.url }}'>{{ series_article.title }}</a>
-        </li>
-      {% endfor %}
-      </ol>
-    {%- endif %}
+    {% endif %}
+    <ol>
+    {% for series_article in article.series.all_previous %}
+      <li>
+        <a href='{{ SITEURL }}/{{ series_article.url }}'>{{ series_article.title }}</a>
+      </li>
+    {% endfor %}
+    </ol>
+  {%- endif %}
 
-    {% if article.series.next -%}
+  {% if article.series.next -%}
+    {% if article.series.all_next|length < 2 -%}
+      <p>Επόμενο άρθρο:</p>
+    {% else %}
       <p>Επόμενα άρθρα:</p>
-      <ol start={{ article.series.index + 1 }} class="parts">
-      {% for series_article in article.series.all_next %}
-        <li>
-          <a href='{{ SITEURL }}/{{ series_article.url }}'>{{ series_article.title }}</a>
-        </li>
-      {% endfor %}
-      </ol>
-    {%- endif %}
+    {% endif %}
+    <ol start={{ article.series.index + 1 }}>
+    {% for series_article in article.series.all_next %}
+      <li>
+        <a href='{{ SITEURL }}/{{ series_article.url }}'>{{ series_article.title }}</a>
+      </li>
+    {% endfor %}
+    </ol>
+  {%- endif %}
 </div>
-{% endif %}
+{%- endif %}
+<!-- end of article series -->
