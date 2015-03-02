@@ -2,32 +2,32 @@
 
 	// Copyright (C) 2014 Jacob Barkdull
 	//
-	//	I, Jacob Barkdull, hereby release this work into the public domain. 
-	//	This applies worldwide. If this is not legally possible, I grant any 
-	//	entity the right to use this work for any purpose, without any 
+	//	I, Jacob Barkdull, hereby release this work into the public domain.
+	//	This applies worldwide. If this is not legally possible, I grant any
+	//	entity the right to use this work for any purpose, without any
 	//	conditions, unless such conditions are required by law.
 	//
 	//--------------------
 	//
 	// IMPORTANT:
 	//
-	//	To maintain proper functionality when downloading or otherwise 
-	//	upgrading to a new version of HashOver, it is important that you 
+	//	To maintain proper functionality when downloading or otherwise
+	//	upgrading to a new version of HashOver, it is important that you
 	//	preserve this file, unless directed otherwise.
 	//
-	//	It is also important to choose UNIQUE values for the encryption key, 
-	//	admin nickname, and admin password, or else you're at risk of 
-	//	someone hijacking the comment system to delete comments, edit 
-	//	existing comments to post spam, and/or impersonate you or your 
-	//	visitors in order to push some sort of agenda/propaganda, to defame 
-	//	you or your visitors, or to imply endorsement of some product(s), 
+	//	It is also important to choose UNIQUE values for the encryption key,
+	//	admin nickname, and admin password, or else you're at risk of
+	//	someone hijacking the comment system to delete comments, edit
+	//	existing comments to post spam, and/or impersonate you or your
+	//	visitors in order to push some sort of agenda/propaganda, to defame
+	//	you or your visitors, or to imply endorsement of some product(s),
 	//	service(s), and/or political ideology.
 
 
-	$encryption_key		= '8CharKey';			// Unique 8 to 32 character encryption key
-	$notification_email	= 'example@example.com';	// E-mail for notification of new comments
-	$admin_nickname		= 'admin';			// Nickname with admin rights (must be title-cased)
-	$admin_password		= 'passwd';			// Password to gain admin rights
+	$encryption_key		= 'My unique key';			// Unique 8 to 32 character encryption key
+	$notification_email	= 'logiconomy@gmail.com';	// E-mail for notification of new comments
+	$admin_nickname		= 'logiconomy';			// Nickname with admin rights (must be title-cased)
+	$admin_password		= 'logiconomy';			// Password to gain admin rights
 
 	// Display source code without giving away encryption key
 	if (isset($_GET['source']) and basename($_SERVER['PHP_SELF']) == basename(__FILE__)) {
