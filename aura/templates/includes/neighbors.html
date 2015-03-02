@@ -1,0 +1,40 @@
+{% if article.prev_article or article.next_article %}
+    <div class="well well-sm clearfix">
+      <div class="row">
+        <div class="col-sm-6">
+          {% if article.prev_article %}
+            <a class="pull-left" href="{{ SITEURL }}/{{ article.prev_article.url}}">
+              <i class="fa fa-chevron-circle-left"></i>
+              {{ article.prev_article.title }}
+            </a>
+          {% endif %}
+        </div>
+        <div class="col-sm-6">
+          {% if article.next_article %}
+            <a class="pull-right" href="{{ SITEURL }}/{{ article.next_article.url}}">
+              {{ article.next_article.title }}
+              <i class="fa fa-chevron-circle-right"></i>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+{% endif %}
+  {#
+  <ul>
+  {% if article.prev_article_in_category %}
+      <li>
+          <a href="{{ SITEURL }}/{{ article.prev_article_in_category.url}}">
+              {{ article.prev_article_in_category.title }}
+          </a>
+      </li>
+  {% endif %}
+  {% if article.next_article_in_category %}
+      <li>
+          <a href="{{ SITEURL }}/{{ article.next_article_in_category.url}}">
+              {{ article.next_article_in_category.title }}
+          </a>
+      </li>
+  {% endif %}
+  </ul>
+  #}

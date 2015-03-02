@@ -45,6 +45,7 @@ PLUGINS = [
     'series',
     'html_rst_directive',
     'tipue_search',
+    'neighbors',
 ]
 
 SITEMAP = {
