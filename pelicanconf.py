@@ -9,9 +9,9 @@ SITEURL = ''
 PATH = 'content'
 
 TIMEZONE = 'Europe/Athens'
-LOCALE = ['el_GR',]
-
 DEFAULT_LANG = 'el'
+DATE_FORMATS = { 'el': '%d %b %Y', }
+LOCALE = ('el_GR.utf8',)
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
