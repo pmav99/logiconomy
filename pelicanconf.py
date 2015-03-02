@@ -48,6 +48,10 @@ PLUGINS = [
     'neighbors',
 ]
 
+DIRECT_TEMPLATES = [
+    'index', 'tags', 'categories', 'authors', 'archives', 'search',
+]
+
 SITEMAP = {
     'format': 'xml',
     'priorities': {
