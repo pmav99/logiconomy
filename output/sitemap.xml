@@ -4,112 +4,112 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://logiconomy.com/</loc>
-<lastmod>2015-03-04T18:01:03-00:00</lastmod>
+<loc>http://logiconomy.gr/</loc>
+<lastmod>2015-03-04T18:50:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/archives.html</loc>
-<lastmod>2015-03-04T18:01:03-00:00</lastmod>
+<loc>http://logiconomy.gr/archives.html</loc>
+<lastmod>2015-03-04T18:50:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/tags.html</loc>
-<lastmod>2015-03-04T18:01:03-00:00</lastmod>
+<loc>http://logiconomy.gr/tags.html</loc>
+<lastmod>2015-03-04T18:50:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/categories.html</loc>
-<lastmod>2015-03-04T18:01:03-00:00</lastmod>
+<loc>http://logiconomy.gr/categories.html</loc>
+<lastmod>2015-03-04T18:50:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/ti-leei-to-email-Baroufaki.html</loc>
+<loc>http://logiconomy.gr/ti-leei-to-email-Baroufaki.html</loc>
 <lastmod>2015-02-12T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/einai-to-elliniko-xreos-biosimo.html</loc>
+<loc>http://logiconomy.gr/einai-to-elliniko-xreos-biosimo.html</loc>
 <lastmod>2015-03-04T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/pos-syndeetai-to-xreos-me-to-aep.html</loc>
+<loc>http://logiconomy.gr/pos-syndeetai-to-xreos-me-to-aep.html</loc>
 <lastmod>2015-03-04T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/ti-einai-to-dimosio-xreos.html</loc>
+<loc>http://logiconomy.gr/ti-einai-to-dimosio-xreos.html</loc>
 <lastmod>2015-02-03T00:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/category/demosio-khreos.html</loc>
+<loc>http://logiconomy.gr/category/demosio-khreos.html</loc>
 <lastmod>2015-03-04T00:00:00+01:35</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/category/epikairoteta.html</loc>
+<loc>http://logiconomy.gr/category/epikairoteta.html</loc>
 <lastmod>2015-02-12T00:00:00+01:35</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/tag/ellada.html</loc>
+<loc>http://logiconomy.gr/tag/aep.html</loc>
 <lastmod>2015-03-04T00:00:00+01:35</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/tag/aep.html</loc>
+<loc>http://logiconomy.gr/tag/ellada.html</loc>
 <lastmod>2015-03-04T00:00:00+01:35</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/tag/demosio-khreos.html</loc>
-<lastmod>2015-03-04T00:00:00+01:35</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://logiconomy.com/tag/khreos.html</loc>
-<lastmod>2015-03-04T00:00:00+01:35</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://logiconomy.com/tag/phoellada.html</loc>
+<loc>http://logiconomy.gr/tag/phoellada.html</loc>
 <lastmod>2015-02-12T00:00:00+01:35</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://logiconomy.com/author/thanases-arguriou.html</loc>
+<loc>http://logiconomy.gr/tag/khreos.html</loc>
+<lastmod>2015-03-04T00:00:00+01:35</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://logiconomy.gr/tag/demosio-khreos.html</loc>
+<lastmod>2015-03-04T00:00:00+01:35</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://logiconomy.gr/author/thanases-arguriou.html</loc>
 <lastmod>2015-03-04T00:00:00+01:35</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
