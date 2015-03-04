@@ -32,8 +32,10 @@
 	}
 
 	// Get full page URL or Canonical URL
+        $_SERVER['HTTP_REFERER'] = 'localhost';
+        echo $_SERVER['HTTP_REFERER'];
 	if ($mode == 'javascript') {
-		if (isset($_SERVER['HTTP_REFERER']) and !isset($_GET['rss'])) {
+		if (!isset($_SERVER['HTTP_REFERER']) and !isset($_GET['rss'])) {
 			// Check if the script was requested by this server
 			if (!preg_match('/' . $domain . '/i', parse_url($_SERVER['HTTP_REFERER'], PHP_URL_HOST))) {
 				exit(jsAddSlashes('<b>HashOver - Error:</b> External use not allowed.', 'single'));

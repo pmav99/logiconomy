@@ -68,7 +68,15 @@ SITEMAP = {
 
 THEME = "./aura"
 
-DISQUS_SITENAME="logiconomy"
+#DISQUS_SITENAME="logiconomy"
+
+
+STATIC_PATHS = [
+    'images',
+    'hashover',
+    'hashover.php',
+]
+ARTICLE_EXCLUDES = STATIC_PATHS
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

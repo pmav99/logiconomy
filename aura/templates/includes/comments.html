@@ -1,3 +1,11 @@
+{% if SITEURL and article.status != "draft" %}
+  <div class="comments">
+    <h2>Σχόλια?</h2>
+    <script type="text/javascript" src="/hashover.php"></script>
+    <noscript>Please enable JavaScript to view the comments.</noscript>
+  </div>
+{% endif %}
+{#
 {% if DISQUS_SITENAME %}
     <hr/>
     <section class="comments" id="comments">
@@ -39,3 +47,4 @@
 
     </section>
 {% endif %}
+#}
