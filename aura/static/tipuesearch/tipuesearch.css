@@ -14,7 +14,10 @@ http://www.tipue.com/search
 	padding: 12px 12px 12px 40px;
 	width: 170px;
 	border: 1px solid #e2e2e2;
-	border-radius: 0;
+	border-radius: 7.5px; /* future proofing */
+	-moz-border-radius: 7.5px;
+	-webkit-border-radius: 7.5px;
+	-khtml-border-radius: 7.5px; /* for old Konqueror browsers */
 	-moz-appearance: none;
 	-webkit-appearance: none;
      box-shadow: none;
