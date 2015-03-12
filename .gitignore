@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 
 # Pelican specific stuff
+outrepo*
 output*
 cache*
 *.pid
