@@ -7,6 +7,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
+LOCALCONF=$(BASEDIR)/localconf.py
 
 FTP_HOST=localhost
 FTP_USER=anonymous
@@ -40,6 +41,7 @@ help:
 	@echo '   make clean                       remove the generated files         '
 	@echo '   make regenerate                  regenerate files upon modification '
 	@echo '   make publish                     generate using production settings '
+	@echo '   make local                       generate using local virtualbox settings '
 	@echo '   make serve [PORT=8000]           serve site at http://localhost:8000'
 	@echo '   make devserver [PORT=8000]       start/restart develop_server.sh    '
 	@echo '   make stopserver                  stop local server                  '
@@ -82,6 +84,11 @@ stopserver:
 	kill -9 `cat srv.pid`
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
+local:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(LOCALCONF) $(PELICANOPTS)
+	find ./output -type d -exec chmod 2775 {} +
+	find ./output -type f -exec chmod 0664 {} +
+
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
@@ -107,4 +114,4 @@ github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
+.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github local
