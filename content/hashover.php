@@ -19,16 +19,16 @@
 	//
 	// Script Description:
 	//
-	//	Free / Open Source PHP comment system intended to replace Disqus. 
-	//	Allows completely anonymous comments to be posted, the only 
-	//	required information is the comment itself. The comments are stored 
-	//	as individual XML files, example: "1.xml" is the first comment, 
-	//	"2.xml" is the second, and "1-1.xml" is the first reply to the first 
+	//	Free / Open Source PHP comment system intended to replace Disqus.
+	//	Allows completely anonymous comments to be posted, the only
+	//	required information is the comment itself. The comments are stored
+	//	as individual XML files, example: "1.xml" is the first comment,
+	//	"2.xml" is the second, and "1-1.xml" is the first reply to the first
 	//	comment, "1-2.xml" is the second reply, and so on.
 	//
-	//	Features restricted use of HTML tags, automatic URL links, avatar 
-	//	icons, replies, comment editing and deletion, notification emails, 
-	//	comment RSS feeds, likes, popular comments, customizable CSS, 
+	//	Features restricted use of HTML tags, automatic URL links, avatar
+	//	icons, replies, comment editing and deletion, notification emails,
+	//	comment RSS feeds, likes, popular comments, customizable CSS,
 	//	referrer checking, permalinks, and more!
 	//
 	//--------------------

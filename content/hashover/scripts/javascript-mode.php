@@ -285,7 +285,7 @@ function parse_template(object, sort, method) {
 	var indent = (sort == false || method == 'ascending') ? object['indent'] : '16px 0px 12px 0px';
 
 	if (!object['deletion_notice']) {
-		var 
+		var
 			permalink = object['permalink'],
 			cmtclass = (sort == false || method == 'ascending') ? object['cmtclass'] : 'cmtdiv',
 			avatar = object['avatar'],
