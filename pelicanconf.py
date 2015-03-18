@@ -78,5 +78,9 @@ STATIC_PATHS = [
 ]
 ARTICLE_EXCLUDES = STATIC_PATHS
 
+# Analytics
+GOOGLE_ANALYTICS_UNIVERSAL = 'UA-60891292-1'
+GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'auto'
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
