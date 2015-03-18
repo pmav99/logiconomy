@@ -85,5 +85,8 @@ GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'auto'
 # License
 CC_LICENSE = 'CC-BY-SA'
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# Social Media
+USE_OPEN_GRAPH = True
+TWITTER_USERNAME = "logiconomy"
+TWITTER_CARDS = True
+TWITTER_WIDGET_ID = 578149124731731968
